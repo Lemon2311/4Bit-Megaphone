@@ -1,5 +1,7 @@
 # 4Bit-Megaphone
 A megaphone that outputs sound with a 4bit effect similar to 4bit covers of songs and such.
+<br>
+This was a gift I gave to my cousin for her birthday and the files are modified for the sake of privacy.
 
 # 3D Print
 3D printed the 2 parts in 60% cubic infill, 2mm shell thickness, 2mm print quality, with tree supports.
