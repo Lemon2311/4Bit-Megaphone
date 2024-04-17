@@ -2,6 +2,8 @@
 
 void setup() {
   Serial.begin(115200);
+
+  // I used a microphone with automatic gain control and that brought issues so I set a specific gain
   pinMode(13, OUTPUT);
   digitalWrite(13, HIGH);
 }
@@ -20,4 +22,5 @@ void loop() {
   
   delayMicroseconds(120);
   // Using a short delay to control the frequency of the output signal
+  // in my case I used a frequency of 8.3kHz, my speaker was rated for 10kHz max
 }
